@@ -6,7 +6,7 @@ syouhinTanka = Int(readLine()!)!
 var kounyuuSuuryou:Int 
 var shiharaiKingaku:Int
 
-while syouhinTanka > 0 {
+repeat {
     kounyuuSuuryou = Int(readLine()!)!
 
     switch kounyuuSuuryou{
@@ -26,4 +26,4 @@ while syouhinTanka > 0 {
     print("支払金額は\(shiharaiKingaku)円です。")
 
     syouhinTanka = Int(readLine()!)!
-}
+} while syouhinTanka > 0
